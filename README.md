@@ -24,8 +24,9 @@ All algorithm implementations are located in the `algorithms/` directory.
 | **Fair**[*5]            | Fair-type M-estimator adaptive algorithm                                       | [5]       |
 | **FxlogNLMS**[*6]       | Logarithmic-transformed FxNLMS                                                 | [6]       |
 | **NS-FxlogLMS**[*7]     | FxlogLMS with Nonlinear Selection                                               | [7]       |
-| **FxlogNLMS-plus**[*8]  | Improved FxlogNLMS with stability and speed-up modifications                   | [8]       |
-| **NSS-FxlogLMS-plus**[*8]| Noise-shaped step-size version of FxlogNLMS-plus                             | [8]       |
+| **MFxRNLMAT**[*8]       | Robust Nonlinear Modified Adaptive Technique                              | [8]       |
+| **FxlogNLMS+**[*9]  | Improved FxlogNLMS with stability and speed-up modifications                   | [9]       |
+| **NSS-FxlogLMS+**[*9]| Noise-shaped step-size version of FxlogNLMS-plus                             | [9]       |
 
 ### References
 
@@ -57,7 +58,11 @@ in *Proc. ICASSP*, 2007, pp. 109–112.
 "An extension to the filtered-x LMS algorithm with logarithmic transformation,"  
 in *Proc. ISSPIT*, 2015, pp. 454–459.  
 
-[*8] A. Haneda, Y. Sugiura, and T. Shimamura,  
+[*8] A. Mirza, F. Afzal, A. Zeb, A. Wakeel, W. S. Qureshi, and A. Akgul,  
+"New FxLMAT-Based Algorithms for Active Control of Impulsive Noise,"  
+*IEEE Access*, vol. 11, pp. 81279–81288, 2023, doi: 10.1109/ACCESS.2023.3293647.
+
+[*9] A. Haneda, Y. Sugiura, and T. Shimamura,  
 "FxlogLMS+: Modified FxlogLMS Algorithm for Active Impulsive Noise Control,"  
 *Lecture Notes in Electrical Engineering*, vol. 1322, Springer, 2025, pp. 342–351.  
 https://link.springer.com/chapter/10.1007/978-981-96-1535-3_34
