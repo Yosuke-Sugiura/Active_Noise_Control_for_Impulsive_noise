@@ -16,17 +16,17 @@ All algorithm implementations are located in the `algorithms/` directory.
 | Abbreviation            | Description                                                                   | Reference |
 |-------------------------|-------------------------------------------------------------------------------|-----------|
 | **FxNLMS**              | Standard Filtered-x Normalized LMS                                             | –         |
-| **FxgsnLMS**[*1]        | Gaussian Step-size Normalized LMS                                              | [1]       |
+| **FxgsnLMS**[*1]        | General Step-size Normalized LMS                                              | [1]       |
 | **FxLMM**[*2]           | Hampel-type Least Mean M-estimate Filtered-x LMS                               | [2]       |
-| **MFxLMM**[*3]          | Enhanced M-estimate with dynamic σ update                                     | [3]       |
+| **MFxLMM**[*3]          | Modefied MFxLMM                                                                | [3]       |
 | **Th-FxNLMS**           | Thresholded FxNLMS                                                             | –         |
-| **MFxLCH**[*4]          | Median Filtered Hybrid LMS with L-Criterion                                   | [4]       |
+| **MFxLCH**[*4]          | modified filtered-x least cosine hyperbolic algorithm with low complexity      | [4]       |
 | **Fair**[*5]            | Fair-type M-estimator adaptive algorithm                                       | [5]       |
 | **FxlogNLMS**[*6]       | Logarithmic-transformed FxNLMS                                                 | [6]       |
-| **NS-FxlogLMS**[*7]     | FxlogLMS with Nonlinear Selection                                               | [7]       |
-| **MFxRNLMAT**[*8]       | Robust Nonlinear Modified Adaptive Technique                              | [8]       |
+| **NS-FxlogLMS**[*7]     | FxlogLMS with Normalized switching                                               | [7]       |
+| **MFxRNLMAT**[*8]       | Modified Filtered-x Robust Normalized Least Mean Absolute Third Algorithm      | [8]       |
 | **FxlogNLMS+**[*9]  | Improved FxlogNLMS with stability and speed-up modifications                   | [9]       |
-| **NSS-FxlogLMS+**[*9]| Noise-shaped step-size version of FxlogNLMS-plus                             | [9]       |
+| **NSS-FxlogLMS+**[*9]| Normalized step-size version of FxlogNLMS+                             | [9]       |
 
 ### References
 
