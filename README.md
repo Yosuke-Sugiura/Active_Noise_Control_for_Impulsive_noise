@@ -62,7 +62,7 @@ in *Proc. ISSPIT*, 2015, pp. 454–459.
 *Lecture Notes in Electrical Engineering*, vol. 1322, Springer, 2025, pp. 342–351.  
 https://link.springer.com/chapter/10.1007/978-981-96-1535-3_34
 
-## ▶Usage
+## Usage
 
 1. Downlaad all files
 
@@ -79,9 +79,9 @@ main.m
 - Plot the Adaptive Noise Reduction (ANR) curves
 - Save the result as `comparison.png`
 
-## esults
+## Results
 
-The figure below shows the comparative performance of each algorithm under impulsive noise.
+The figure below shows the comparative performance of each algorithm under impulsive noise (α-stable noise with α=1.65).
 
 ![Comparison Result](comparison.png)
 
